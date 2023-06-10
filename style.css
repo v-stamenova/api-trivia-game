@@ -1,0 +1,40 @@
+body {
+  padding: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.answer {
+  margin-bottom: 10px;
+}
+
+
+.flash {
+  animation: flash-animation 2s;
+}
+
+.correct,
+.correct:hover {
+  background-color: #1a801d !important;
+}
+
+.wrong,
+.wrong:hover {
+  background-color: #f44336 !important;
+}
+
+@keyframes flash-animation {
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: #2196f3;
+  }
+
+  100% {
+    background-color: #fff;
+  }
+}
